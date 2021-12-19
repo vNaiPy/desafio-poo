@@ -1,0 +1,141 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+
+
+# Criado por https://www.toptal.com/developers/gitignore/api/java,intellij
+# Edite em https://www.toptal.com/developers/gitignore?templates=java,intellij
+
+### Intellij ###
+# Cobre IDEs JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm e Rider
+# Referência: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Coisas específicas do usuário
+.idea / ** / workspace.xml
+.idea / ** / tasks.xml
+.idea / ** / usage.statistics.xml
+.idea / ** / dicionários
+.idea / ** / prateleira
+
+# Específico do usuário AWS
+.idea / ** / aws.xml
+
+# Arquivos gerados
+.idea / ** / contentModel.xml
+
+# Arquivos sensíveis ou de alta rotatividade
+.idea / ** / dataSources /
+.idea / ** / dataSources.ids
+.idea / ** / dataSources.local.xml
+.idea / ** / sqlDataSources.xml
+.idea / ** / dynamic.xml
+.idea / ** / uiDesigner.xml
+.idea / ** / dbnavigator.xml
+
+# Gradle
+.idea / ** / gradle.xml
+.idea / ** / bibliotecas
+
+# Gradle e Maven com importação automática
+# Ao usar Gradle ou Maven com importação automática, você deve excluir arquivos de módulo,
+# uma vez que serão recriados e podem causar rotatividade. Remova o comentário se estiver usando
+# importação automática.
+# .idea / artifacts
+# .idea / compiler.xml
+# .idea / jarRepositories.xml
+# .idea / modules.xml
+# .idea / *. iml
+# .idea / modules
+# * .iml
+# * .ipr
+
+# CMake
+cmake-build - * /
+
+# Plugin do Mongo Explorer
+.idea / ** / mongoSettings.xml
+
+# Formato de projeto baseado em arquivo
+* .iws
+
+# IntelliJ
+Fora/
+
+# mpeltonen / plugin sbt-idea
+.idea_modules /
+
+# Plugin JIRA
+atlassian-ide-plugin.xml
+
+# Plugin Cursive Clojure
+.idea / replstate.xml
+
+# Plug-in Crashlytics (para Android Studio e IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Cliente de descanso baseado em editor
+.idea / httpRequests
+
+# Android studio 3.1+ arquivo de cache serializado
+.idea / caches / build_file_checksums.ser
+
+### Intellij Patch ###
+# Motivo do comentário: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# * .iml
+# modules.xml
+# .idea / misc.xml
+# * .ipr
+
+# Plugin Sonarlint
+# https://plugins.jetbrains.com/plugin/7973-sonarlint
+.idea / ** / sonarlint /
+
+# SonarQube Plugin
+# https://plugins.jetbrains.com/plugin/7238-sonarqube-community-plugin
+.idea / ** / sonarIssues.xml
+
+# Plug-in Markdown Navigator
+# https://plugins.jetbrains.com/plugin/7896-markdown-navigator-enhanced
+.idea / ** / markdown-navigator.xml
+.idea / ** / markdown-navigator-enh.xml
+.idea / ** / markdown-navigator /
+
+# Bug de criação de arquivo de cache
+# Veja https://youtrack.jetbrains.com/issue/JBR-2257
+.idea / $ CACHE_FILE $
+
+# Plug-in CodeStream
+# https://plugins.jetbrains.com/plugin/12206-codestream
+.idea / codestream.xml
+
+### Java ###
+# Arquivo de classe compilado
+*.classe
+
+# Arquivo de log
+*.registro
+
+# Arquivos BlueJ
+* .ctxt
+
+# Ferramentas móveis para Java (J2ME)
+.mtj.tmp /
+
+# Arquivos de pacote #
+* .jar
+*.guerra
+* .nar
+*.orelha
+*.fecho eclair
+* .tar.gz
+* .rar
+
+# logs de travamento da máquina virtual, consulte http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid *
+
+# Fim de https://www.toptal.com/developers/gitignore/api/java,intellij
